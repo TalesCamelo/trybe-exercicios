@@ -1,0 +1,33 @@
+ol li {
+    background-color: yellow;
+}
+ol li:nth-of-type(odd) {
+    text-transform: uppercase;
+}
+ol li:nth-of-type(even) {
+    color: green;
+}
+h1, h2 {
+    color: red;
+}
+
+h1, h2 em {
+    text-size-adjust: 40px;
+    border: 1px solid black;
+}
+
+li {
+    text-size-adjust: 20px;
+}
+
+li em {
+    font-weight: 600;
+}
+
+ul:nth-of-type(1) li:nth-child(-n + 3) {
+    color: red;
+}
+
+ul:nth-of-type(1) li:nth-word(Java) {
+    background-color: pink;
+}
